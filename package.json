@@ -1,0 +1,15 @@
+{
+  "name": "ilovemy-city-jade",
+  "version": "1.0.0",
+  "description": "",
+  "main": "appl.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nikhil",
+  "license": "nikhil",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jade": "^1.11.0"
+  }
+}

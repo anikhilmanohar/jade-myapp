@@ -1,0 +1,14 @@
+include partials/header.jade
+body
+  include partials/navmenu.jade
+  .container
+    .row
+      .col-mid-12
+        p
+        p.headingfont
+          =heading                           
+        div
+            - for(var i = 1; i <= imagecount; i++)
+              .thumbnail
+                img(src='/images/'+imageFolderName+'/image_'+i+'.jpg', style='width:500px;')
+include partials/jscssincluds.jade
